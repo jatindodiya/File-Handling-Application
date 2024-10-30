@@ -68,3 +68,4 @@ async function processFiles() {
 // cron at interval
 console.log('File handling application started...');
 schedule.scheduleJob(`* ${CHECK_INTERVAL} * * * *`, processFiles);
+// processFiles()
