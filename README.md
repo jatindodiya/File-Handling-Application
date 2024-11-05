@@ -22,7 +22,7 @@
 ## How It Works
 
 - The app scans the input folder for files, including any files within nested folders.
-- Each file is divided into chunks using a custom `splitFile` function with Node.js streams.
+- Each file is divided into chunks using a custom `splitFile` function with Linux Commands.
 - Chunked files are saved in the output folder.
 - A `processed.json` file is generated to log and track all processed files.
   
